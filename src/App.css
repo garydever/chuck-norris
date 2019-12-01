@@ -1,22 +1,29 @@
-.App {
-  text-align: center;
+.wrapper {
+    background: black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.title-container {
+    background: url("./img/MV5BMTU4NjY3NzgyM15BMl5BanBnXkFtZTcwODI4OTEzNA@@._V1_.jpg") center center no-repeat;
+    height: 80vh;
+    background-size: cover;
+    color: bisque;
+    
+    text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.form-container {
+    color: bisque;
+    background-color: rgba(0, 0, 0, 0.425);
+    
 }
 
-.App-link {
-  color: #09d3ac;
+.norris-fact {
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    color: bisque;
 }
